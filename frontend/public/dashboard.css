@@ -1,0 +1,52 @@
+    html, body {
+        height: 98.7%;
+      }
+
+      .main-container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+      }
+
+      .action-pane {
+        margin: 10px;
+      }
+      .center-pane{
+        min-width: 15%;
+        max-width: 15%;
+        flex: 0 1 auto;
+        background: #256e7b;
+        margin: -8px 6px;
+      }
+      .left-pane {
+        min-width: 15%;
+        max-width: 15%;
+        flex: 0 1 auto;
+        background: #225656;
+        margin: -8px;
+        height: 596px;
+      }
+      .right-pane {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .chat-body-area {
+        flex: 1 1 auto;
+        margin: 8px -6px;
+      }
+      .chat-input-area {
+        flex: 0 1 auto;
+        height: 26px;
+        background: white;
+        margin: -7px -7px;
+        border: 1px solid #267679;
+        height: 47px;
+      }
+      .searchBox{
+        flex: 0 1 auto;
+        height: 26px;
+        background: #1691a7;
+        margin: -8px -6px;
+        height: 38px;
+      }
